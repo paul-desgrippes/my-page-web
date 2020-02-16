@@ -1,0 +1,28 @@
+/* Importing google fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+
+/* Impoting all components file */
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+/* General style rules for fonts and colours */
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: rgb(200,2O0,200);
+	margin: 0px;
+	font-weight: 200;
+}
+h1,h2,h3 {
+	font-family: 'Julius Sans One', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.img-circle {
+	border-radius: 50%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2)
+}
